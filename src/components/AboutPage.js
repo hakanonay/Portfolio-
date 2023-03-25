@@ -70,7 +70,7 @@ const AboutPage = () => {
                     <img src={astronaut} alt="spacewoman" />
                 </Spaceman>
                 <Main>
-                    I'm a Software developer located in Germany. I love to create simple yet beautiful websites with great user experience.
+                    I'm a Cyber Security Analyst located in Germany.
                     <br /> <br />
                     I'm interested in the whole full-stack Like trying new things and building great projects. I'm an independent developer and blogger. I love to write blogs and read books.
                     <br /> <br />
