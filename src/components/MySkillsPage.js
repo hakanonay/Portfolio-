@@ -28,7 +28,6 @@ color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 padding: 2rem;
 width: 30vw;
-height: 60vh;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
@@ -74,7 +73,6 @@ ${Main}:hover &{
 }
 
 strong{
-    margin-bottom: 1rem;
     text-transform: uppercase;
 }
 ul,p{
@@ -93,45 +91,35 @@ const MySkillsPage = () => {
                 <ParticleComponent theme='light' />
                 <Main>
                     <Title>
-                        <Design width={40} height={40} /> Designer
+                        <Design width={40} height={40} /> cyber security analyst
                     </Title>
+         
                     <Description>
-                        I love to create design which speaks, Keep it clean, minimal and simple.
-                    </Description>
-                    <Description>
-                        <strong>I like to develop</strong>
-                        <ul>
-                            <li>
-                                Web Apps
-                            </li>
-                            <li>
-                                Web Design
-                            </li>
-                        </ul>
-                    </Description>
-                    <Description>
-
+                    Security Technology Expertise<br />
+Network Security Proficiency<br />
+Threat Intelligence Analysis<br />
+Incident Response Management<br />
+Risk Assessment and Management<br />
+Security Operations Center (SOC) Operations<br />
+Communication and Collaboration Skills<br />
+Continuous Learning and Professional Development
                     </Description>
 
                 </Main>
                 <Main>
                     <Title>
-                        <Develope width={40} height={40} /> Software Developer
+                        <Develope width={40} height={40} /> My Tools 
                     </Title>
+         
                     <Description>
-                        I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
-                    </Description>
-                    <Description>
-                        <strong>Skills</strong>
-                        <p>
-                            Html, Css, Js, React, Redux, Sass, Bootstrap, NodeJs, ExpressJs, MongoDB etc.
-                        </p>
-                    </Description>
-                    <Description>
-                        <strong>Tools</strong>
-                        <p>
-                            Git, AWS, Docker, Nginx, CMS etc.
-                        </p>
+                    Vulnerability Scanners<br/>
+Intrusion Detection and Prevention Systems<br/>
+Security Information and Event Management (SIEM) systems<br/>
+Malware Analysis Tools<br/>
+Penetration Testing Tools<br/>
+Firewall and Network Security Tools<br/>
+Forensic Analysis Tools<br/>
+Authentication and Identity Management Tools
                     </Description>
 
                 </Main>
