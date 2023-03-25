@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { Xing, Github, Github1, Github2, Linkedin, Medium } from '../components/AllSvgs'
+import { Xing, Github, Linkedin, Medium } from '../components/AllSvgs'
 import { DarkTheme } from '../components/Themes'
 
 
@@ -39,17 +39,8 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/kadirumac" }}>
-                    <Github1 width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
-                </NavLink>
-            </motion.div>
-            <motion.div
-                initial={{ transform: "scale(0)" }}
-                animate={{ scale: [0, 1, 1.5, 1] }}
-                transition={{ type: 'spring', duration: 1, delay: 1 }}
-            >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/kadir-umac" }}>
-                    <Github2 width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://github.com/hakanonay" }}>
+                    <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
             <motion.div
@@ -57,7 +48,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1.2 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.linkedin.com/in/umackadir/" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.linkedin.com/in/hakan-oenay/" }}>
                     <Linkedin width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
@@ -66,7 +57,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1.4 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.xing.com/profile/Kadir_Umac3/cv" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://www.xing.com/profile/Hakan_Oenay2/cv" }}>
                     <Xing width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>
@@ -75,7 +66,7 @@ const SocialIcons = (props) => {
                 animate={{ scale: [0, 1, 1.5, 1] }}
                 transition={{ type: 'spring', duration: 1, delay: 1.6 }}
             >
-                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://medium.com/@kadirumac" }}>
+                <NavLink style={{ color: 'inherit' }} target="_blank" to={{ pathname: "https://medium.com/@hakanoenay" }}>
                     <Medium width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body} />
                 </NavLink>
             </motion.div>

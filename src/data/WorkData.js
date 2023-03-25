@@ -3,11 +3,11 @@
 export const Work = [
     {
         id: 1,
-        name: "Gamescom",
-        description: "It is build on top of the React JS, with Frontastic-CMS and Graph-CMS.",
-        tags: ["react", "CMS", "AWS"],
+        name: "Schwancosmetics",
+        description: "As a cyber security analyst at a cosmetic company, I gained experience in protecting against cyber threats, managing security incidents, and implementing security measures.",
+        tags:  ['Cybersecurity', 'SecurityAnalyst', 'ThreatProtection', 'IncidentManagement', 'SecurityMeasures'],
 
-        demo: "https://www.gamescom.de/",
+        demo: "https://www.schwancosmetics.com/",
     },
 
 

@@ -70,11 +70,15 @@ const AboutPage = () => {
                     <img src={astronaut} alt="spacewoman" />
                 </Spaceman>
                 <Main>
-                    I'm a Cyber Security Analyst located in Germany.
-                    <br /> <br />
-                    I'm interested in the whole full-stack Like trying new things and building great projects. I'm an independent developer and blogger. I love to write blogs and read books.
-                    <br /> <br />
-                    I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+                As a cyber security analyst, my main goal is to protect organizations from cyber threats. I do this by analyzing networks, systems, and applications to identify vulnerabilities and potential security risks. I also monitor and investigate security incidents, such as unauthorized access attempts or data breaches, to determine the root cause and recommend mitigation measures.
+
+   <br /> <br /> I also collaborate closely with IT and business teams to ensure that security measures are implemented in a way that is both effective and efficient.
+
+In addition to technical expertise, I also possess strong communication skills, attention to detail, and a commitment to continuous improvement.
+<br /> <br />
+
+Overall, I am dedicated to helping organizations protect their valuable assets and maintain the trust of their customers and stakeholders.
+            
                 </Main>
 
                 <BigTitle text="ABOUT" top="10%" left="5%" />
